@@ -1,0 +1,65 @@
+baseurl = "http://king-jam.io"
+title = "James King | Projects and Thoughts"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+#disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "James King"
+    info = 'I do "Smart Computer Things" according to my wife'
+    description = "John Doe's personal website"
+    keywords = "blog,developer,personal"
+    avatarurl = "images/avatar.jpg"
+
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    footercontent = ""
+
+    hidecredits = false
+    hidecopyright = false
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/king-jam/"
+[[params.social]]
+    name = "Linkedin"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 2
+    url = "https://linkedin.com/in/james-king-a6ba6b1a/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 3
+    url = "https://twitter.com/JamesRKing4/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "Projects"
+    weight = 2
+    url = "/projects/"
+[[menu.main]]
+    name = "About"
+    weight = 3
+    url = "/about/"
