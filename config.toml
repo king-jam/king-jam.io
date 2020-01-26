@@ -1,4 +1,4 @@
-baseurl = "http://king-jam.io"
+baseurl = "https://king-jam.io"
 title = "James King | Projects and Thoughts"
 theme = "hugo-coder"
 languagecode = "en"
