@@ -1,4 +1,4 @@
-baseurl = "https://king-jam.io"
+baseurl = "/"
 title = "James King | Projects and Thoughts"
 theme = "hugo-coder"
 languagecode = "en"
@@ -16,16 +16,16 @@ pygmentscodefencesguesssyntax = true
 [params]
     author = "James King"
     info = 'I do "Smart Computer Things" according to my wife'
-    description = "John Doe's personal website"
-    keywords = "blog,developer,personal"
+    description = "James King's Personal Website"
+    keywords = "blog,developer,personal,it,infrastructure"
     avatarurl = "images/avatar.jpg"
 
-    favicon_32 = "/img/favicon-32x32.png"
-    favicon_16 = "/img/favicon-16x16.png"
+    favicon_32 = "/images/favicon-32x32.png"
+    favicon_16 = "/images/favicon-16x16.png"
 
     footercontent = ""
 
-    hidecredits = false
+    hidecredits = true
     hidecopyright = false
 
     rtl = false
