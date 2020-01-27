@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = ""
 title = "James King | Projects and Thoughts"
 theme = "hugo-coder"
 languagecode = "en"
@@ -10,7 +10,7 @@ canonifyurls = true
 pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
-
+    
 #disqusShortname = "yourdiscussshortname"
 
 [params]
@@ -22,8 +22,6 @@ pygmentscodefencesguesssyntax = true
 
     favicon_32 = "/images/favicon-32x32.png"
     favicon_16 = "/images/favicon-16x16.png"
-
-    footercontent = ""
 
     hidecredits = true
     hidecopyright = false
@@ -49,6 +47,11 @@ pygmentscodefencesguesssyntax = true
     icon = "fab fa-twitter fa-2x"
     weight = 3
     url = "https://twitter.com/JamesRKing4/"
+[[params.social]]
+    name = "E-Mail"
+    icon = "fab fa-envelope fa-2x"
+    weight = 4
+    url = "mailto:james.r.king4@gmail.com"
 
 # Menu links
 [[menu.main]]
